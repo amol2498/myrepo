@@ -2,6 +2,18 @@ git add . && git commit -m "initial commit"
 git push
 
 
+## Event straming acroos event hubs
+
+
+
+I have SUBSCRIPTION-1 and SUBSCRIPTION-2. I have created an eventhub in SUBSCRIPTION-2. 
+I go to SUBSCRIPTION-1 one and create a Resource-Group. 
+After creating an Resource-Group, I create a EVENT-GRID. 
+Within the eventgrid, I create a EVENT-SUBSCRIPTION that givens an option to point it to an endpoint. 
+I chose the endpoint and selected the eventhub that was created in SUBSCRIPTION-1.
+
+##
+
 https://medium.com/kubernetes-tutorials/cluster-level-logging-in-kubernetes-with-fluentd-e59aa2b6093a
 https://phoenixnap.com/kb/elasticsearch-kubernetes
 
